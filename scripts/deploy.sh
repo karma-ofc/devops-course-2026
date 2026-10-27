@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+!/usr/bin/env bash
 # Доставка статического ресурса на devops-vm
 # Использование: scripts/deploy.sh [--dry-run]
 set -euo pipefail
@@ -9,7 +9,7 @@ SITE_URL="https://devops.local"
 CA_CERT="${HOME}/devops.crt"
 
 # Параметры SSH (адаптированы под WSL)
-SSH_KEY="/mnt/c/Users/User/.ssh/devops_vm"
+SSH_KEY="$HOME/.ssh/devops_vm_wsl"
 SSH_PORT="2222"
 REMOTE_IP="172.22.0.1" # IP Windows из WSL
 
