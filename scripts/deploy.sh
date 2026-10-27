@@ -1,4 +1,4 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
 # Доставка статического ресурса на devops-vm
 # Использование: scripts/deploy.sh [--dry-run]
 set -euo pipefail
